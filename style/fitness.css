@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.regular-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  background-color: black;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Miama';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Miama';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+}
+
+.font{
+    font-family: "Miama", sans-serif;
+    font-weight: 100;
+}
+
+
+.container{
+    background-color: black;
+}
+
+.navber{
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(230, 83, 60, 1);
+    
+}
+
+.band{
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+.display-flex{
+    display: flex
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.home{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 10px ;
+    padding: 2px 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.nav-links{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.text-colour{
+    color: #ffff;
+}
+
+.paragrahp-colour{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary{
+   color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 30px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+.btn{
+    color:rgba(255, 255, 255, 1) ;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px 25px;
+    font: size 1.25rem; 
+    font-weight: 600;
+    border: 1px solid white;
+
+}
+.banner, .navber {
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 250px;
+    
+    
+}
+   
+
+.write{
+    color: rgba(255, 255, 255, 1);
+    
+}
+.paragrahp-colour{
+    text-align: center;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+.write{
+    max-width: 520px;
+    margin: 0,auto;
+}
+.photo{
+    height: 500px;
+    width:  100%;
+    position: relative;
+}
+.main-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.facts-container{
+    color:rgba(255, 255, 255, 1) ;
+
+}
+.fact{
+    color:  rgba(255, 255, 255, 0.5);
+}
+.badge-2{
+    background-color: rgba(48, 48, 48, 0.54);
+    border: none;
+   position: absolute;
+   top: 100;
+   right: 0;
+    
+}
+.vedio-badge{
+    padding: 20px, 22px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+   
+    
+    
+}
+.experiance{
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.vedio{
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.paragrahp{
+    color: rgba(255, 255, 255, 0.5);
+}
+.facts-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.facts-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.border{
+    border-radius:50%;
+}
+.card{
+    position: relative;
+}
+.run{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+}
+.joging{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+
+}
+.section{
+    margin-top: 50px;
+}
+.run-2{
+    width: 100%;
+    height: 250px;
+   border-radius: 30px;
+
+}
+.bg{
+   padding: 20px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 30px;
+}
