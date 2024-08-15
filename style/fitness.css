@@ -98,19 +98,19 @@
 .banner, .navber {
     max-width: 1000px;
     margin: 0 auto;
-    gap: 250px;
-    
-    
+    gap: 100px; 
 }
    
-
+.index{
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 250px;
+}
 .write{
     color: rgba(255, 255, 255, 1);
     
 }
-.paragrahp-colour{
-    text-align: center;
-}
+
 
 .banner-title{
     font-weight: 700;
@@ -128,12 +128,16 @@
 .main-title{
     color: rgba(255, 255, 255, 1);
     font-size: 3rem;
-    text-align: center;
+    
 }
 
 .facts-container{
     color:rgba(255, 255, 255, 1) ;
 
+}
+.chart{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
 }
 .fact{
     color:  rgba(255, 255, 255, 0.5);
@@ -144,6 +148,7 @@
    position: absolute;
    top: 100;
    right: 0;
+   border-radius: 10px;
     
 }
 .vedio-badge{
@@ -153,15 +158,17 @@
     position: absolute;
     bottom: 0;
     left: 0;
-   
-   
-    
-    
+    border-radius: 10px;
+}
+.tutorial{
+    padding: 10px;
+    text-align: center;
 }
 .experiance{
     color: rgba(250, 250, 249, 1);
     font-size: 1.5rem;
     font-weight: 600;
+
     
 }
 .vedio{
@@ -210,4 +217,11 @@
    padding: 20px;
     background-color: rgba(34, 34, 34, 1);
     border-radius: 30px;
+}
+.bmi{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+}
+.text{
+    text-align: center;
 }

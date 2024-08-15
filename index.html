@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
    <link rel="stylesheet" href="style/fitness.css">
+   <style>
+    table{
+        border-collapse: collapse;
+    }
+    th{
+        color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 5px;
+    }
+    td{
+       color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 5px;
+    }
+   </style>
 
 </head>
 <body class="regular-font">
@@ -28,15 +43,17 @@
                 <button class="btn">Download app</button>
             </div>
             <div class="card">
-                <button class=" badge-2">
+                <div class=" badge-2 tutorial ">
                     <span class="experiance">500+</span><br>
                     <span class="vedio">Free workout vedios</span>
-                </button>
+                </div>
                 <img class="photo" src="images/Images 2.png" alt="">
-                <button class="vedio-badge">
+                <div class="vedio-badge">
+                   <div class="tutorial">
                     <span class="experiance">350+</span><br>
                     <span class="vedio">Vedio tutorial</span>
-                </button>
+                   </div>
+                </div>
 
             </div>
 
@@ -46,7 +63,7 @@
     </header>
     <main class="container">
         <section class="section">
-            <div>
+            <div class="text">
                 <h3 class="main-title">Change Your Habits</h3>
                 <p class="paragrahp-colour">Identify cues. Something has to trigger a habit, and a cue can be anything.</p>
             </div>
@@ -86,6 +103,53 @@
                 </div>
                 <div>
                     <img class="run-2" src="images/run.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+             <div class="text">
+                <h3 class="bmi">BMI Calculator</h3>
+                <p class="paragrahp-colour">Body Mass Index calculator gives out the BMI value and categorizes BMI based <br> on provided information from WHO and CDC for both adults and children.</p>
+             </div>
+        </section>
+        <section>
+            <div class="index display-flex">
+                <div>
+                    <h3><span class="chart">BMI Calculator Chart</span></h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>BMI </th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                            <td>Below 18.5 </td>
+                            <td>Underweight</td>
+                           </tr>
+                           <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                           </tr>
+                           <tr>
+                            <td> 25.0 - 29.9</td>
+                            <td>Overweight</td>
+
+                           </tr>
+                           <tr>
+                            <td> 30.0 - and Above </td>
+                            <td>Obese</td>
+                           </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="chart">Calculate Your BMI</h3>
+                    <p class="paragrahp-colour">It's important to know that the BMI calculation is one <br> of many used mostly by healthcare professionals</p>
+                    <input type="text" placeholder="Height/cm"><input type="text" placeholder="Weight/kg"><br>
+                    <input type="text" placeholder="Age"><input type="text" placeholder="sex"><br>
+                    <input type="text" placeholder=" Select an activity factor">
                 </div>
             </div>
         </section>
