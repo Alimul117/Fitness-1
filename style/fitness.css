@@ -43,6 +43,11 @@
     font-size: 2.2rem;
     font-style: italic;
 }
+.band-2{
+    color:rgba(230, 83, 60, 1) ;
+    font-style: italic;
+    font-size: 3rem;
+}
 
 .display-flex{
     display: flex
@@ -80,19 +85,22 @@
    color: rgba(255, 255, 255, 1);
     background-color: rgba(230, 83, 60, 1);
     border-radius: 30px;
-    padding: 20px 25px;
+    padding: 10px 15px;
     font-size: 1.25rem;
     font-weight: 600;
     border: none;
+    width: 190px;
 }
 .btn{
     color:rgba(255, 255, 255, 1) ;
     background-color: black;
     border-radius: 30px;
-    padding: 20px 25px;
+    padding: 15px 20px;
     font: size 1.25rem; 
     font-weight: 600;
     border: 1px solid white;
+    width: 190px;
+
 
 }
 .banner, .navber {
@@ -250,8 +258,16 @@
 
 }
 .picture{
-    width: 100%;
+    width: 300px;
+    height: 200px;
     border-radius: 10px;
+}
+.letter{
+    position: relative;
+}
+.letter-2{
+    position: absolute;
+    bottom: 50;
 }
 .sir{
     display: relative;
@@ -261,4 +277,18 @@
     display: absolute;
     left: 20px;
     bottom: 20px;
+}
+.service{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 150px;
+    padding-top: 20px;
+}
+.reserved{
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
