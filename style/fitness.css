@@ -98,7 +98,7 @@
     color:rgba(255, 255, 255, 1) ;
     background-color: black;
     border-radius: 30px;
-    padding: 15px 20px;
+    padding: 10px 15px;
     font: size 1.25rem; 
     font-weight: 600;
     border: 1px solid white;
@@ -159,8 +159,8 @@
     background-color: rgba(48, 48, 48, 0.54);
     border: none;
    position: absolute;
-   top: 100;
-   right: 0;
+   top: 20%;
+   right: 0%;
    border-radius: 10px;
     
 }
@@ -169,8 +169,8 @@
     background-color: rgba(48, 48, 48, 0.54);
     border: none;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 10%;
+    left: 10%;
     border-radius: 10px;
 }
 .tutorial{
@@ -207,6 +207,7 @@
 }
 .card{
     position: relative;
+    width: 700px;
 }
 .run{
     color: rgba(255, 255, 255, 1);
@@ -250,6 +251,9 @@
     margin-bottom: 10px;
 
     
+}
+.icon{
+    display: none !important;
 }
 .backgrownd{
     color: rgba(255, 255, 255, 0.6);
@@ -310,25 +314,74 @@
 
 
  @media screen and (max-width: 576px) {
-    .navber{
-        flex-direction: column;
-        max-width: 500px;
-        margin-left: 20px;
-        text-align: center;
+    .band{
+        font-size: 1.5rem;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .paragrahp-colour{
+        font-size: 0.5rem;
+    }
+    .chart{
+        font-size: 1rem;
+    }
+    .btn-primary, .btn{
+        font-size: 0.5rem;
+        width: auto;
+        
+    }
+
+    .experiance{
+        font-size: 1.7rem;
+    }
+    .vedio{
+        font-size: 0.5rem;
+    }
+    .main-title{
+        font-size: 2rem;
+    }
+    .run{
+        font-size: 2rem;
+    }
+    .bmi{
+        font-size: 1rem;
+    }
+    .font-2{
+        font-size: 1rem;
+    }
+    .teacher{
+        font-size: 0.8rem;
+    }
+    .band-2{
+        font-size: 2rem;
+    }
+    .navber {
+         max-width: 400px;   
     }
     .nav-links{
-        
+        display: none;
+    }
+    .icon{
+        display: block!important;
+        color: rgba(255, 255, 255, 1);
     }
     .banner, .facts-container{
         flex-direction: column;
-        width: 500px;
-        margin-left: 20px;
+        width: 400px;
+        
+    }
+    .card{
+        width: 100%;
+        
+    }
+    .photo{
+        height: 200px;
+        width: 300px;
     }
     .index{
         flex-direction: column;
-       width: 500px;
-        margin-left: 20px;
-        gap: 30px;
+       gap: 30px;
         
     }
     .backgrownd{
@@ -336,20 +389,27 @@
     }
     .bg{
         gap: 30px;
+        width: 400px;
+    }
+    .run-2{
+        width: 300px;
     }
     .trainer{
         grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+        width: 100%;
+        border: 1px solid white;
     }
 
 
     .service{
         flex-direction: column;
-        text-align: center;
-        max-width: 500px;
-        margin-left: 20px;
         gap: 30px;
     }
  
 
     }
-    
+    .hidden{
+        display: none;
+    }
