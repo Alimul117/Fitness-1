@@ -335,6 +335,10 @@
         width: auto;
         
     }
+    .btn-5{
+        flex-direction:column;
+        width: 150px;
+    }
 
     .experiance{
         font-size: 1.7rem;
