@@ -76,6 +76,9 @@
 .text-colour{
     color: #ffff;
 }
+.teacher{
+    color: #ffff;
+}
 
 .paragrahp-colour{
     color: rgba(255, 255, 255, 0.5);
@@ -113,6 +116,8 @@
     max-width: 1000px;
     margin: 0 auto;
     gap: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .write{
     color: rgba(255, 255, 255, 1);
@@ -246,10 +251,19 @@
 
     
 }
+.backgrownd{
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1) ;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 350px;
+}
 .trainer{
    max-width: 1000px;
    margin: 0 auto;
-   padding: 10px;
+   padding: 20px;
    border-radius: 20px;
     background-color: rgba(34, 34, 34, 1);
     display: grid;
@@ -268,15 +282,16 @@
 .letter-2{
     position: absolute;
     bottom: 50;
+    
 }
 .sir{
-    display: relative;
+    position: relative;
     
 }
 .sir-2{
-    display: absolute;
-    left: 20px;
-    bottom: 20px;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
 }
 .service{
     max-width: 1000px;
@@ -292,3 +307,49 @@
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+
+ @media screen and (max-width: 576px) {
+    .navber{
+        flex-direction: column;
+        max-width: 500px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .nav-links{
+        
+    }
+    .banner, .facts-container{
+        flex-direction: column;
+        width: 500px;
+        margin-left: 20px;
+    }
+    .index{
+        flex-direction: column;
+       width: 500px;
+        margin-left: 20px;
+        gap: 30px;
+        
+    }
+    .backgrownd{
+        width: 160px;
+    }
+    .bg{
+        gap: 30px;
+    }
+    .trainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    .service{
+        flex-direction: column;
+        text-align: center;
+        max-width: 500px;
+        margin-left: 20px;
+        gap: 30px;
+    }
+ 
+
+    }
+    
